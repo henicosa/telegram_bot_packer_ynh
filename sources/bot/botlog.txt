@@ -1,0 +1,1259 @@
+11:13:02,607 telegram.ext.dispatcher DEBUG Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x7f54ab975490>
+11:13:02,608 apscheduler.scheduler INFO Scheduler started
+11:13:02,609 apscheduler.scheduler DEBUG Looking for jobs to run
+11:13:02,609 telegram.bot DEBUG Entering: get_me
+11:13:02,609 apscheduler.scheduler DEBUG No jobs; waiting until a job is added
+11:13:02,784 telegram.bot DEBUG {'username': 'AgnesSturmBot', 'supports_inline_queries': False, 'id': 5043438343, 'first_name': 'Sturm Service', 'can_read_all_group_messages': False, 'is_bot': True, 'can_join_groups': True}
+11:13:02,784 telegram.bot DEBUG Exiting: get_me
+11:13:02,785 telegram.ext.updater DEBUG Bot:5043438343:dispatcher - started
+11:13:02,785 telegram.ext.updater DEBUG Bot:5043438343:updater - started
+11:13:02,787 telegram.ext.updater DEBUG Updater thread started (polling)
+11:13:02,787 telegram.ext.updater DEBUG Start network loop retry bootstrap del webhook
+11:13:02,787 telegram.ext.updater DEBUG Deleting webhook
+11:13:02,787 telegram.bot DEBUG Entering: delete_webhook
+11:13:02,787 telegram.ext.updater DEBUG Waiting for Dispatcher and polling to start
+11:13:02,788 telegram.ext.dispatcher DEBUG Dispatcher started
+11:13:02,830 telegram.bot DEBUG True
+11:13:02,830 telegram.bot DEBUG Exiting: delete_webhook
+11:13:02,830 telegram.ext.updater DEBUG Bootstrap done
+11:13:02,830 telegram.ext.updater DEBUG Start network loop retry getting Updates
+11:13:02,831 telegram.bot DEBUG Entering: get_updates
+11:13:13,63 telegram.bot DEBUG No new updates found.
+11:13:13,63 telegram.bot DEBUG []
+11:13:13,63 telegram.bot DEBUG Exiting: get_updates
+11:13:13,63 telegram.bot DEBUG Entering: get_updates
+11:13:23,182 telegram.bot DEBUG No new updates found.
+11:13:23,182 telegram.bot DEBUG []
+11:13:23,182 telegram.bot DEBUG Exiting: get_updates
+11:13:23,183 telegram.bot DEBUG Entering: get_updates
+11:13:33,228 telegram.bot DEBUG No new updates found.
+11:13:33,228 telegram.bot DEBUG []
+11:13:33,228 telegram.bot DEBUG Exiting: get_updates
+11:13:33,228 telegram.bot DEBUG Entering: get_updates
+11:13:37,236 telegram.bot DEBUG Getting updates: [433884572]
+11:13:37,236 telegram.bot DEBUG [<telegram.update.Update object at 0x7f54afd19b40>]
+11:13:37,236 telegram.bot DEBUG Exiting: get_updates
+11:13:37,236 telegram.bot DEBUG Entering: get_updates
+11:13:37,237 telegram.ext.dispatcher DEBUG Processing Update: {'update_id': 433884572, 'message': {'new_chat_members': [], 'message_id': 124, 'group_chat_created': False, 'chat': {'id': 858247705, 'type': 'private', 'first_name': 'Ludwig'}, 'delete_chat_photo': False, 'new_chat_photo': [], 'supergroup_chat_created': False, 'entities': [{'length': 11, 'type': 'bot_command', 'offset': 0}], 'channel_chat_created': False, 'photo': [], 'date': 1642241616, 'caption_entities': [], 'text': '/folge_3754', 'from': {'id': 858247705, 'first_name': 'Ludwig', 'is_bot': False, 'language_code': 'de'}}}
+11:13:37,241 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.daserste.de:443
+11:13:37,548 urllib3.connectionpool DEBUG https://www.daserste.de:443 "GET /unterhaltung/soaps-telenovelas/sturm-der-liebe/videos/sturm-der-liebe-folge-3754-video-100.html HTTP/1.1" 404 None
+11:13:37,604 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.daserste.de:443
+11:13:38,874 urllib3.connectionpool DEBUG https://www.daserste.de:443 "GET /unterhaltung/soaps-telenovelas/sturm-der-liebe/videos/sturm-der-liebe-folge-3754-video-104.html HTTP/1.1" 200 None
+11:13:39,647 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.daserste.de:443
+11:13:40,919 urllib3.connectionpool DEBUG https://www.daserste.de:443 "GET /unterhaltung/soaps-telenovelas/sturm-der-liebe/videos/sturm-der-liebe-folge-3754-video-104.html HTTP/1.1" 200 162869
+11:13:41,525 telegram.bot DEBUG Entering: send_message
+11:13:41,740 telegram.bot DEBUG {'new_chat_members': [], 'message_id': 125, 'group_chat_created': False, 'chat': {'id': 858247705, 'type': 'private', 'first_name': 'Ludwig'}, 'delete_chat_photo': False, 'new_chat_photo': [], 'supergroup_chat_created': False, 'entities': [{'length': 119, 'type': 'url', 'offset': 52}], 'channel_chat_created': False, 'photo': [], 'date': 1642241621, 'caption_entities': [], 'text': 'Folge 3754? Klaro, hier ist der Link zur Folge: \n \n https://www.daserste.de/unterhaltung/soaps-telenovelas/sturm-der-liebe/videos/sturm-der-liebe-folge-3754-video-104.html\n \n Viel Vergnügen 😘', 'from': {'username': 'AgnesSturmBot', 'id': 5043438343, 'first_name': 'Sturm Service', 'is_bot': True}}
+11:13:41,740 telegram.bot DEBUG Exiting: send_message
+11:13:41,740 telegram.bot DEBUG Entering: send_message
+11:13:41,818 telegram.bot DEBUG {'new_chat_members': [], 'message_id': 126, 'group_chat_created': False, 'chat': {'id': 858247705, 'type': 'private', 'first_name': 'Ludwig'}, 'delete_chat_photo': False, 'new_chat_photo': [], 'supergroup_chat_created': False, 'entities': [{'length': 11, 'type': 'bot_command', 'offset': 309}], 'channel_chat_created': False, 'photo': [], 'date': 1642241621, 'caption_entities': [], 'text': 'Naturburschen (3754) | Sturm der Liebe\n\nAndré nimmt sich vor, Michael beim Wald-Workshop zu zeigen, wer von ihnen der echte Naturbursche ist. Doch dann erfährt er, dass sich die Teilnehmer während des Workshops ausschließlich von dem ernähren sollen, was der Wald ihnen bietet.\n\nDein Link zur nächsten Folge: /folge_3755', 'from': {'username': 'AgnesSturmBot', 'id': 5043438343, 'first_name': 'Sturm Service', 'is_bot': True}}
+11:13:41,818 telegram.bot DEBUG Exiting: send_message
+11:13:47,282 telegram.bot DEBUG No new updates found.
+11:13:47,282 telegram.bot DEBUG []
+11:13:47,282 telegram.bot DEBUG Exiting: get_updates
+11:13:47,283 telegram.bot DEBUG Entering: get_updates
+11:13:57,402 telegram.bot DEBUG No new updates found.
+11:13:57,402 telegram.bot DEBUG []
+11:13:57,402 telegram.bot DEBUG Exiting: get_updates
+11:13:57,402 telegram.bot DEBUG Entering: get_updates
+11:14:07,540 telegram.bot DEBUG No new updates found.
+11:14:07,540 telegram.bot DEBUG []
+11:14:07,540 telegram.bot DEBUG Exiting: get_updates
+11:14:07,540 telegram.bot DEBUG Entering: get_updates
+11:14:17,581 telegram.bot DEBUG No new updates found.
+11:14:17,581 telegram.bot DEBUG []
+11:14:17,581 telegram.bot DEBUG Exiting: get_updates
+11:14:17,582 telegram.bot DEBUG Entering: get_updates
+11:14:27,815 telegram.bot DEBUG No new updates found.
+11:14:27,815 telegram.bot DEBUG []
+11:14:27,815 telegram.bot DEBUG Exiting: get_updates
+11:14:27,815 telegram.bot DEBUG Entering: get_updates
+11:14:38,55 telegram.bot DEBUG No new updates found.
+11:14:38,55 telegram.bot DEBUG []
+11:14:38,55 telegram.bot DEBUG Exiting: get_updates
+11:14:38,55 telegram.bot DEBUG Entering: get_updates
+11:14:48,97 telegram.bot DEBUG No new updates found.
+11:14:48,97 telegram.bot DEBUG []
+11:14:48,98 telegram.bot DEBUG Exiting: get_updates
+11:14:48,98 telegram.bot DEBUG Entering: get_updates
+11:14:58,182 telegram.bot DEBUG No new updates found.
+11:14:58,182 telegram.bot DEBUG []
+11:14:58,182 telegram.bot DEBUG Exiting: get_updates
+11:14:58,183 telegram.bot DEBUG Entering: get_updates
+11:15:08,231 telegram.bot DEBUG No new updates found.
+11:15:08,231 telegram.bot DEBUG []
+11:15:08,231 telegram.bot DEBUG Exiting: get_updates
+11:15:08,231 telegram.bot DEBUG Entering: get_updates
+11:15:18,277 telegram.bot DEBUG No new updates found.
+11:15:18,277 telegram.bot DEBUG []
+11:15:18,281 telegram.bot DEBUG Exiting: get_updates
+11:15:18,281 telegram.bot DEBUG Entering: get_updates
+11:15:28,333 telegram.bot DEBUG No new updates found.
+11:15:28,333 telegram.bot DEBUG []
+11:15:28,333 telegram.bot DEBUG Exiting: get_updates
+11:15:28,333 telegram.bot DEBUG Entering: get_updates
+11:15:38,471 telegram.bot DEBUG No new updates found.
+11:15:38,471 telegram.bot DEBUG []
+11:15:38,471 telegram.bot DEBUG Exiting: get_updates
+11:15:38,472 telegram.bot DEBUG Entering: get_updates
+11:15:48,609 telegram.bot DEBUG No new updates found.
+11:15:48,609 telegram.bot DEBUG []
+11:15:48,609 telegram.bot DEBUG Exiting: get_updates
+11:15:48,609 telegram.bot DEBUG Entering: get_updates
+11:15:58,746 telegram.bot DEBUG No new updates found.
+11:15:58,747 telegram.bot DEBUG []
+11:15:58,747 telegram.bot DEBUG Exiting: get_updates
+11:15:58,747 telegram.bot DEBUG Entering: get_updates
+11:16:08,987 telegram.bot DEBUG No new updates found.
+11:16:08,987 telegram.bot DEBUG []
+11:16:08,987 telegram.bot DEBUG Exiting: get_updates
+11:16:08,987 telegram.bot DEBUG Entering: get_updates
+11:16:19,195 telegram.bot DEBUG No new updates found.
+11:16:19,195 telegram.bot DEBUG []
+11:16:19,195 telegram.bot DEBUG Exiting: get_updates
+11:16:19,196 telegram.bot DEBUG Entering: get_updates
+11:16:29,242 telegram.bot DEBUG No new updates found.
+11:16:29,242 telegram.bot DEBUG []
+11:16:29,243 telegram.bot DEBUG Exiting: get_updates
+11:16:29,243 telegram.bot DEBUG Entering: get_updates
+11:16:39,298 telegram.bot DEBUG No new updates found.
+11:16:39,299 telegram.bot DEBUG []
+11:16:39,299 telegram.bot DEBUG Exiting: get_updates
+11:16:39,299 telegram.bot DEBUG Entering: get_updates
+11:16:49,435 telegram.bot DEBUG No new updates found.
+11:16:49,435 telegram.bot DEBUG []
+11:16:49,435 telegram.bot DEBUG Exiting: get_updates
+11:16:49,435 telegram.bot DEBUG Entering: get_updates
+11:16:59,575 telegram.bot DEBUG No new updates found.
+11:16:59,575 telegram.bot DEBUG []
+11:16:59,576 telegram.bot DEBUG Exiting: get_updates
+11:16:59,576 telegram.bot DEBUG Entering: get_updates
+11:17:09,712 telegram.bot DEBUG No new updates found.
+11:17:09,712 telegram.bot DEBUG []
+11:17:09,712 telegram.bot DEBUG Exiting: get_updates
+11:17:09,712 telegram.bot DEBUG Entering: get_updates
+11:17:19,870 telegram.bot DEBUG No new updates found.
+11:17:19,870 telegram.bot DEBUG []
+11:17:19,870 telegram.bot DEBUG Exiting: get_updates
+11:17:19,870 telegram.bot DEBUG Entering: get_updates
+11:17:30,89 telegram.bot DEBUG No new updates found.
+11:17:30,89 telegram.bot DEBUG []
+11:17:30,89 telegram.bot DEBUG Exiting: get_updates
+11:17:30,89 telegram.bot DEBUG Entering: get_updates
+11:17:40,209 telegram.bot DEBUG No new updates found.
+11:17:40,209 telegram.bot DEBUG []
+11:17:40,209 telegram.bot DEBUG Exiting: get_updates
+11:17:40,209 telegram.bot DEBUG Entering: get_updates
+11:17:50,259 telegram.bot DEBUG No new updates found.
+11:17:50,259 telegram.bot DEBUG []
+11:17:50,259 telegram.bot DEBUG Exiting: get_updates
+11:17:50,260 telegram.bot DEBUG Entering: get_updates
+11:18:00,306 telegram.bot DEBUG No new updates found.
+11:18:00,306 telegram.bot DEBUG []
+11:18:00,307 telegram.bot DEBUG Exiting: get_updates
+11:18:00,307 telegram.bot DEBUG Entering: get_updates
+11:18:10,617 telegram.bot DEBUG No new updates found.
+11:18:10,618 telegram.bot DEBUG []
+11:18:10,618 telegram.bot DEBUG Exiting: get_updates
+11:18:10,618 telegram.bot DEBUG Entering: get_updates
+11:18:20,676 telegram.bot DEBUG No new updates found.
+11:18:20,676 telegram.bot DEBUG []
+11:18:20,676 telegram.bot DEBUG Exiting: get_updates
+11:18:20,676 telegram.bot DEBUG Entering: get_updates
+11:18:30,916 telegram.bot DEBUG No new updates found.
+11:18:30,916 telegram.bot DEBUG []
+11:18:30,916 telegram.bot DEBUG Exiting: get_updates
+11:18:30,916 telegram.bot DEBUG Entering: get_updates
+11:18:41,155 telegram.bot DEBUG No new updates found.
+11:18:41,156 telegram.bot DEBUG []
+11:18:41,156 telegram.bot DEBUG Exiting: get_updates
+11:18:41,156 telegram.bot DEBUG Entering: get_updates
+11:18:51,294 telegram.bot DEBUG No new updates found.
+11:18:51,294 telegram.bot DEBUG []
+11:18:51,294 telegram.bot DEBUG Exiting: get_updates
+11:18:51,294 telegram.bot DEBUG Entering: get_updates
+11:19:01,343 telegram.bot DEBUG No new updates found.
+11:19:01,343 telegram.bot DEBUG []
+11:19:01,343 telegram.bot DEBUG Exiting: get_updates
+11:19:01,343 telegram.bot DEBUG Entering: get_updates
+11:19:11,467 telegram.bot DEBUG No new updates found.
+11:19:11,467 telegram.bot DEBUG []
+11:19:11,467 telegram.bot DEBUG Exiting: get_updates
+11:19:11,467 telegram.bot DEBUG Entering: get_updates
+11:19:21,514 telegram.bot DEBUG No new updates found.
+11:19:21,514 telegram.bot DEBUG []
+11:19:21,514 telegram.bot DEBUG Exiting: get_updates
+11:19:21,515 telegram.bot DEBUG Entering: get_updates
+11:19:31,562 telegram.bot DEBUG No new updates found.
+11:19:31,562 telegram.bot DEBUG []
+11:19:31,562 telegram.bot DEBUG Exiting: get_updates
+11:19:31,562 telegram.bot DEBUG Entering: get_updates
+11:19:41,778 telegram.bot DEBUG No new updates found.
+11:19:41,778 telegram.bot DEBUG []
+11:19:41,778 telegram.bot DEBUG Exiting: get_updates
+11:19:41,778 telegram.bot DEBUG Entering: get_updates
+11:19:51,826 telegram.bot DEBUG No new updates found.
+11:19:51,826 telegram.bot DEBUG []
+11:19:51,827 telegram.bot DEBUG Exiting: get_updates
+11:19:51,827 telegram.bot DEBUG Entering: get_updates
+11:20:02,59 telegram.bot DEBUG No new updates found.
+11:20:02,60 telegram.bot DEBUG []
+11:20:02,60 telegram.bot DEBUG Exiting: get_updates
+11:20:02,60 telegram.bot DEBUG Entering: get_updates
+11:20:12,294 telegram.bot DEBUG No new updates found.
+11:20:12,294 telegram.bot DEBUG []
+11:20:12,294 telegram.bot DEBUG Exiting: get_updates
+11:20:12,294 telegram.bot DEBUG Entering: get_updates
+11:20:22,534 telegram.bot DEBUG No new updates found.
+11:20:22,534 telegram.bot DEBUG []
+11:20:22,535 telegram.bot DEBUG Exiting: get_updates
+11:20:22,535 telegram.bot DEBUG Entering: get_updates
+11:20:32,774 telegram.bot DEBUG No new updates found.
+11:20:32,775 telegram.bot DEBUG []
+11:20:32,775 telegram.bot DEBUG Exiting: get_updates
+11:20:32,775 telegram.bot DEBUG Entering: get_updates
+11:20:42,878 telegram.bot DEBUG No new updates found.
+11:20:42,879 telegram.bot DEBUG []
+11:20:42,879 telegram.bot DEBUG Exiting: get_updates
+11:20:42,879 telegram.bot DEBUG Entering: get_updates
+11:20:52,965 telegram.bot DEBUG No new updates found.
+11:20:52,965 telegram.bot DEBUG []
+11:20:52,965 telegram.bot DEBUG Exiting: get_updates
+11:20:52,965 telegram.bot DEBUG Entering: get_updates
+11:21:03,86 telegram.bot DEBUG No new updates found.
+11:21:03,87 telegram.bot DEBUG []
+11:21:03,87 telegram.bot DEBUG Exiting: get_updates
+11:21:03,87 telegram.bot DEBUG Entering: get_updates
+11:21:13,182 telegram.bot DEBUG No new updates found.
+11:21:13,182 telegram.bot DEBUG []
+11:21:13,182 telegram.bot DEBUG Exiting: get_updates
+11:21:13,182 telegram.bot DEBUG Entering: get_updates
+11:21:23,236 telegram.bot DEBUG No new updates found.
+11:21:23,236 telegram.bot DEBUG []
+11:21:23,236 telegram.bot DEBUG Exiting: get_updates
+11:21:23,237 telegram.bot DEBUG Entering: get_updates
+11:21:33,295 telegram.bot DEBUG No new updates found.
+11:21:33,295 telegram.bot DEBUG []
+11:21:33,295 telegram.bot DEBUG Exiting: get_updates
+11:21:33,295 telegram.bot DEBUG Entering: get_updates
+11:21:43,432 telegram.bot DEBUG No new updates found.
+11:21:43,432 telegram.bot DEBUG []
+11:21:43,432 telegram.bot DEBUG Exiting: get_updates
+11:21:43,433 telegram.bot DEBUG Entering: get_updates
+11:21:53,477 telegram.bot DEBUG No new updates found.
+11:21:53,477 telegram.bot DEBUG []
+11:21:53,477 telegram.bot DEBUG Exiting: get_updates
+11:21:53,477 telegram.bot DEBUG Entering: get_updates
+11:22:03,716 telegram.bot DEBUG No new updates found.
+11:22:03,716 telegram.bot DEBUG []
+11:22:03,716 telegram.bot DEBUG Exiting: get_updates
+11:22:03,716 telegram.bot DEBUG Entering: get_updates
+11:22:13,949 telegram.bot DEBUG No new updates found.
+11:22:13,949 telegram.bot DEBUG []
+11:22:13,949 telegram.bot DEBUG Exiting: get_updates
+11:22:13,949 telegram.bot DEBUG Entering: get_updates
+11:22:24,189 telegram.bot DEBUG No new updates found.
+11:22:24,189 telegram.bot DEBUG []
+11:22:24,189 telegram.bot DEBUG Exiting: get_updates
+11:22:24,189 telegram.bot DEBUG Entering: get_updates
+11:22:34,238 telegram.bot DEBUG No new updates found.
+11:22:34,238 telegram.bot DEBUG []
+11:22:34,238 telegram.bot DEBUG Exiting: get_updates
+11:22:34,238 telegram.bot DEBUG Entering: get_updates
+11:22:44,284 telegram.bot DEBUG No new updates found.
+11:22:44,284 telegram.bot DEBUG []
+11:22:44,284 telegram.bot DEBUG Exiting: get_updates
+11:22:44,284 telegram.bot DEBUG Entering: get_updates
+11:22:54,341 telegram.bot DEBUG No new updates found.
+11:22:54,341 telegram.bot DEBUG []
+11:22:54,341 telegram.bot DEBUG Exiting: get_updates
+11:22:54,341 telegram.bot DEBUG Entering: get_updates
+11:23:04,430 telegram.bot DEBUG No new updates found.
+11:23:04,430 telegram.bot DEBUG []
+11:23:04,430 telegram.bot DEBUG Exiting: get_updates
+11:23:04,430 telegram.bot DEBUG Entering: get_updates
+11:23:14,567 telegram.bot DEBUG No new updates found.
+11:23:14,567 telegram.bot DEBUG []
+11:23:14,567 telegram.bot DEBUG Exiting: get_updates
+11:23:14,568 telegram.bot DEBUG Entering: get_updates
+11:23:24,807 telegram.bot DEBUG No new updates found.
+11:23:24,807 telegram.bot DEBUG []
+11:23:24,807 telegram.bot DEBUG Exiting: get_updates
+11:23:24,808 telegram.bot DEBUG Entering: get_updates
+11:23:35,46 telegram.bot DEBUG No new updates found.
+11:23:35,46 telegram.bot DEBUG []
+11:23:35,47 telegram.bot DEBUG Exiting: get_updates
+11:23:35,47 telegram.bot DEBUG Entering: get_updates
+11:23:45,222 telegram.bot DEBUG No new updates found.
+11:23:45,222 telegram.bot DEBUG []
+11:23:45,222 telegram.bot DEBUG Exiting: get_updates
+11:23:45,222 telegram.bot DEBUG Entering: get_updates
+11:23:55,268 telegram.bot DEBUG No new updates found.
+11:23:55,268 telegram.bot DEBUG []
+11:23:55,268 telegram.bot DEBUG Exiting: get_updates
+11:23:55,268 telegram.bot DEBUG Entering: get_updates
+11:24:05,317 telegram.bot DEBUG No new updates found.
+11:24:05,317 telegram.bot DEBUG []
+11:24:05,317 telegram.bot DEBUG Exiting: get_updates
+11:24:05,317 telegram.bot DEBUG Entering: get_updates
+11:24:15,391 telegram.bot DEBUG No new updates found.
+11:24:15,391 telegram.bot DEBUG []
+11:24:15,391 telegram.bot DEBUG Exiting: get_updates
+11:24:15,391 telegram.bot DEBUG Entering: get_updates
+11:24:25,528 telegram.bot DEBUG No new updates found.
+11:24:25,528 telegram.bot DEBUG []
+11:24:25,528 telegram.bot DEBUG Exiting: get_updates
+11:24:25,528 telegram.bot DEBUG Entering: get_updates
+11:24:35,665 telegram.bot DEBUG No new updates found.
+11:24:35,666 telegram.bot DEBUG []
+11:24:35,666 telegram.bot DEBUG Exiting: get_updates
+11:24:35,666 telegram.bot DEBUG Entering: get_updates
+11:24:45,905 telegram.bot DEBUG No new updates found.
+11:24:45,905 telegram.bot DEBUG []
+11:24:45,906 telegram.bot DEBUG Exiting: get_updates
+11:24:45,906 telegram.bot DEBUG Entering: get_updates
+11:24:56,43 telegram.bot DEBUG No new updates found.
+11:24:56,43 telegram.bot DEBUG []
+11:24:56,44 telegram.bot DEBUG Exiting: get_updates
+11:24:56,44 telegram.bot DEBUG Entering: get_updates
+11:25:06,90 telegram.bot DEBUG No new updates found.
+11:25:06,90 telegram.bot DEBUG []
+11:25:06,90 telegram.bot DEBUG Exiting: get_updates
+11:25:06,91 telegram.bot DEBUG Entering: get_updates
+11:25:16,221 telegram.bot DEBUG No new updates found.
+11:25:16,221 telegram.bot DEBUG []
+11:25:16,221 telegram.bot DEBUG Exiting: get_updates
+11:25:16,221 telegram.bot DEBUG Entering: get_updates
+11:25:26,455 telegram.bot DEBUG No new updates found.
+11:25:26,455 telegram.bot DEBUG []
+11:25:26,455 telegram.bot DEBUG Exiting: get_updates
+11:25:26,456 telegram.bot DEBUG Entering: get_updates
+11:25:36,503 telegram.bot DEBUG No new updates found.
+11:25:36,503 telegram.bot DEBUG []
+11:25:36,503 telegram.bot DEBUG Exiting: get_updates
+11:25:36,503 telegram.bot DEBUG Entering: get_updates
+11:25:46,730 telegram.bot DEBUG No new updates found.
+11:25:46,730 telegram.bot DEBUG []
+11:25:46,730 telegram.bot DEBUG Exiting: get_updates
+11:25:46,731 telegram.bot DEBUG Entering: get_updates
+11:25:56,955 telegram.bot DEBUG No new updates found.
+11:25:56,955 telegram.bot DEBUG []
+11:25:56,955 telegram.bot DEBUG Exiting: get_updates
+11:25:56,956 telegram.bot DEBUG Entering: get_updates
+11:26:07,10 telegram.bot DEBUG No new updates found.
+11:26:07,10 telegram.bot DEBUG []
+11:26:07,10 telegram.bot DEBUG Exiting: get_updates
+11:26:07,10 telegram.bot DEBUG Entering: get_updates
+11:26:17,225 telegram.bot DEBUG No new updates found.
+11:26:17,229 telegram.bot DEBUG []
+11:26:17,230 telegram.bot DEBUG Exiting: get_updates
+11:26:17,230 telegram.bot DEBUG Entering: get_updates
+11:26:27,280 telegram.bot DEBUG No new updates found.
+11:26:27,280 telegram.bot DEBUG []
+11:26:27,280 telegram.bot DEBUG Exiting: get_updates
+11:26:27,280 telegram.bot DEBUG Entering: get_updates
+11:26:37,519 telegram.bot DEBUG No new updates found.
+11:26:37,519 telegram.bot DEBUG []
+11:26:37,519 telegram.bot DEBUG Exiting: get_updates
+11:26:37,520 telegram.bot DEBUG Entering: get_updates
+11:26:47,567 telegram.bot DEBUG No new updates found.
+11:26:47,567 telegram.bot DEBUG []
+11:26:47,567 telegram.bot DEBUG Exiting: get_updates
+11:26:47,567 telegram.bot DEBUG Entering: get_updates
+11:26:57,911 telegram.bot DEBUG No new updates found.
+11:26:57,911 telegram.bot DEBUG []
+11:26:57,911 telegram.bot DEBUG Exiting: get_updates
+11:26:57,911 telegram.bot DEBUG Entering: get_updates
+11:27:07,960 telegram.bot DEBUG No new updates found.
+11:27:07,960 telegram.bot DEBUG []
+11:27:07,960 telegram.bot DEBUG Exiting: get_updates
+11:27:07,960 telegram.bot DEBUG Entering: get_updates
+11:27:18,69 telegram.bot DEBUG No new updates found.
+11:27:18,70 telegram.bot DEBUG []
+11:27:18,70 telegram.bot DEBUG Exiting: get_updates
+11:27:18,70 telegram.bot DEBUG Entering: get_updates
+11:27:28,182 telegram.bot DEBUG No new updates found.
+11:27:28,182 telegram.bot DEBUG []
+11:27:28,182 telegram.bot DEBUG Exiting: get_updates
+11:27:28,182 telegram.bot DEBUG Entering: get_updates
+11:27:38,236 telegram.bot DEBUG No new updates found.
+11:27:38,236 telegram.bot DEBUG []
+11:27:38,236 telegram.bot DEBUG Exiting: get_updates
+11:27:38,236 telegram.bot DEBUG Entering: get_updates
+11:27:48,380 telegram.bot DEBUG No new updates found.
+11:27:48,380 telegram.bot DEBUG []
+11:27:48,380 telegram.bot DEBUG Exiting: get_updates
+11:27:48,380 telegram.bot DEBUG Entering: get_updates
+11:27:58,518 telegram.bot DEBUG No new updates found.
+11:27:58,518 telegram.bot DEBUG []
+11:27:58,518 telegram.bot DEBUG Exiting: get_updates
+11:27:58,518 telegram.bot DEBUG Entering: get_updates
+11:28:08,656 telegram.bot DEBUG No new updates found.
+11:28:08,656 telegram.bot DEBUG []
+11:28:08,656 telegram.bot DEBUG Exiting: get_updates
+11:28:08,656 telegram.bot DEBUG Entering: get_updates
+11:28:18,705 telegram.bot DEBUG No new updates found.
+11:28:18,705 telegram.bot DEBUG []
+11:28:18,705 telegram.bot DEBUG Exiting: get_updates
+11:28:18,705 telegram.bot DEBUG Entering: get_updates
+11:28:28,827 telegram.bot DEBUG No new updates found.
+11:28:28,828 telegram.bot DEBUG []
+11:28:28,828 telegram.bot DEBUG Exiting: get_updates
+11:28:28,828 telegram.bot DEBUG Entering: get_updates
+11:28:38,966 telegram.bot DEBUG No new updates found.
+11:28:38,966 telegram.bot DEBUG []
+11:28:38,966 telegram.bot DEBUG Exiting: get_updates
+11:28:38,966 telegram.bot DEBUG Entering: get_updates
+11:28:49,196 telegram.bot DEBUG No new updates found.
+11:28:49,196 telegram.bot DEBUG []
+11:28:49,200 telegram.bot DEBUG Exiting: get_updates
+11:28:49,201 telegram.bot DEBUG Entering: get_updates
+11:28:59,370 telegram.bot DEBUG No new updates found.
+11:28:59,370 telegram.bot DEBUG []
+11:28:59,370 telegram.bot DEBUG Exiting: get_updates
+11:28:59,370 telegram.bot DEBUG Entering: get_updates
+11:29:09,480 telegram.bot DEBUG No new updates found.
+11:29:09,480 telegram.bot DEBUG []
+11:29:09,480 telegram.bot DEBUG Exiting: get_updates
+11:29:09,481 telegram.bot DEBUG Entering: get_updates
+11:29:19,720 telegram.bot DEBUG No new updates found.
+11:29:19,720 telegram.bot DEBUG []
+11:29:19,720 telegram.bot DEBUG Exiting: get_updates
+11:29:19,721 telegram.bot DEBUG Entering: get_updates
+11:29:29,960 telegram.bot DEBUG No new updates found.
+11:29:29,961 telegram.bot DEBUG []
+11:29:29,961 telegram.bot DEBUG Exiting: get_updates
+11:29:29,961 telegram.bot DEBUG Entering: get_updates
+11:29:40,200 telegram.bot DEBUG No new updates found.
+11:29:40,200 telegram.bot DEBUG []
+11:29:40,200 telegram.bot DEBUG Exiting: get_updates
+11:29:40,200 telegram.bot DEBUG Entering: get_updates
+11:29:50,235 telegram.bot DEBUG No new updates found.
+11:29:50,235 telegram.bot DEBUG []
+11:29:50,235 telegram.bot DEBUG Exiting: get_updates
+11:29:50,235 telegram.bot DEBUG Entering: get_updates
+11:30:00,271 telegram.bot DEBUG No new updates found.
+11:30:00,271 telegram.bot DEBUG []
+11:30:00,271 telegram.bot DEBUG Exiting: get_updates
+11:30:00,271 telegram.bot DEBUG Entering: get_updates
+11:30:10,307 telegram.bot DEBUG No new updates found.
+11:30:10,307 telegram.bot DEBUG []
+11:30:10,307 telegram.bot DEBUG Exiting: get_updates
+11:30:10,308 telegram.bot DEBUG Entering: get_updates
+11:30:20,443 telegram.bot DEBUG No new updates found.
+11:30:20,444 telegram.bot DEBUG []
+11:30:20,444 telegram.bot DEBUG Exiting: get_updates
+11:30:20,444 telegram.bot DEBUG Entering: get_updates
+11:30:30,581 telegram.bot DEBUG No new updates found.
+11:30:30,581 telegram.bot DEBUG []
+11:30:30,581 telegram.bot DEBUG Exiting: get_updates
+11:30:30,581 telegram.bot DEBUG Entering: get_updates
+11:30:40,821 telegram.bot DEBUG No new updates found.
+11:30:40,822 telegram.bot DEBUG []
+11:30:40,822 telegram.bot DEBUG Exiting: get_updates
+11:30:40,822 telegram.bot DEBUG Entering: get_updates
+11:30:51,61 telegram.bot DEBUG No new updates found.
+11:30:51,61 telegram.bot DEBUG []
+11:30:51,61 telegram.bot DEBUG Exiting: get_updates
+11:30:51,61 telegram.bot DEBUG Entering: get_updates
+11:31:01,301 telegram.bot DEBUG No new updates found.
+11:31:01,301 telegram.bot DEBUG []
+11:31:01,302 telegram.bot DEBUG Exiting: get_updates
+11:31:01,302 telegram.bot DEBUG Entering: get_updates
+11:31:11,542 telegram.bot DEBUG No new updates found.
+11:31:11,542 telegram.bot DEBUG []
+11:31:11,542 telegram.bot DEBUG Exiting: get_updates
+11:31:11,542 telegram.bot DEBUG Entering: get_updates
+11:31:21,895 telegram.bot DEBUG No new updates found.
+11:31:21,895 telegram.bot DEBUG []
+11:31:21,896 telegram.bot DEBUG Exiting: get_updates
+11:31:21,896 telegram.bot DEBUG Entering: get_updates
+11:31:31,933 telegram.bot DEBUG No new updates found.
+11:31:31,933 telegram.bot DEBUG []
+11:31:31,933 telegram.bot DEBUG Exiting: get_updates
+11:31:31,934 telegram.bot DEBUG Entering: get_updates
+11:31:42,56 telegram.bot DEBUG No new updates found.
+11:31:42,56 telegram.bot DEBUG []
+11:31:42,57 telegram.bot DEBUG Exiting: get_updates
+11:31:42,57 telegram.bot DEBUG Entering: get_updates
+11:31:52,175 telegram.bot DEBUG No new updates found.
+11:31:52,175 telegram.bot DEBUG []
+11:31:52,175 telegram.bot DEBUG Exiting: get_updates
+11:31:52,176 telegram.bot DEBUG Entering: get_updates
+11:32:02,331 telegram.bot DEBUG No new updates found.
+11:32:02,332 telegram.bot DEBUG []
+11:32:02,332 telegram.bot DEBUG Exiting: get_updates
+11:32:02,332 telegram.bot DEBUG Entering: get_updates
+11:32:12,571 telegram.bot DEBUG No new updates found.
+11:32:12,572 telegram.bot DEBUG []
+11:32:12,572 telegram.bot DEBUG Exiting: get_updates
+11:32:12,572 telegram.bot DEBUG Entering: get_updates
+11:32:22,608 telegram.bot DEBUG No new updates found.
+11:32:22,608 telegram.bot DEBUG []
+11:32:22,608 telegram.bot DEBUG Exiting: get_updates
+11:32:22,608 telegram.bot DEBUG Entering: get_updates
+11:32:32,962 telegram.bot DEBUG No new updates found.
+11:32:32,963 telegram.bot DEBUG []
+11:32:32,963 telegram.bot DEBUG Exiting: get_updates
+11:32:32,963 telegram.bot DEBUG Entering: get_updates
+11:32:43,87 telegram.bot DEBUG No new updates found.
+11:32:43,88 telegram.bot DEBUG []
+11:32:43,88 telegram.bot DEBUG Exiting: get_updates
+11:32:43,88 telegram.bot DEBUG Entering: get_updates
+11:32:53,182 telegram.bot DEBUG No new updates found.
+11:32:53,182 telegram.bot DEBUG []
+11:32:53,182 telegram.bot DEBUG Exiting: get_updates
+11:32:53,183 telegram.bot DEBUG Entering: get_updates
+11:33:03,230 telegram.bot DEBUG No new updates found.
+11:33:03,230 telegram.bot DEBUG []
+11:33:03,230 telegram.bot DEBUG Exiting: get_updates
+11:33:03,230 telegram.bot DEBUG Entering: get_updates
+11:33:13,274 telegram.bot DEBUG No new updates found.
+11:33:13,274 telegram.bot DEBUG []
+11:33:13,274 telegram.bot DEBUG Exiting: get_updates
+11:33:13,275 telegram.bot DEBUG Entering: get_updates
+11:33:23,330 telegram.bot DEBUG No new updates found.
+11:33:23,331 telegram.bot DEBUG []
+11:33:23,331 telegram.bot DEBUG Exiting: get_updates
+11:33:23,331 telegram.bot DEBUG Entering: get_updates
+11:33:33,366 telegram.bot DEBUG No new updates found.
+11:33:33,366 telegram.bot DEBUG []
+11:33:33,366 telegram.bot DEBUG Exiting: get_updates
+11:33:33,366 telegram.bot DEBUG Entering: get_updates
+11:33:43,504 telegram.bot DEBUG No new updates found.
+11:33:43,504 telegram.bot DEBUG []
+11:33:43,504 telegram.bot DEBUG Exiting: get_updates
+11:33:43,504 telegram.bot DEBUG Entering: get_updates
+11:33:53,641 telegram.bot DEBUG No new updates found.
+11:33:53,642 telegram.bot DEBUG []
+11:33:53,642 telegram.bot DEBUG Exiting: get_updates
+11:33:53,642 telegram.bot DEBUG Entering: get_updates
+11:34:03,781 telegram.bot DEBUG No new updates found.
+11:34:03,781 telegram.bot DEBUG []
+11:34:03,782 telegram.bot DEBUG Exiting: get_updates
+11:34:03,782 telegram.bot DEBUG Entering: get_updates
+11:34:14,135 telegram.bot DEBUG No new updates found.
+11:34:14,135 telegram.bot DEBUG []
+11:34:14,135 telegram.bot DEBUG Exiting: get_updates
+11:34:14,135 telegram.bot DEBUG Entering: get_updates
+11:34:24,208 telegram.bot DEBUG No new updates found.
+11:34:24,208 telegram.bot DEBUG []
+11:34:24,208 telegram.bot DEBUG Exiting: get_updates
+11:34:24,208 telegram.bot DEBUG Entering: get_updates
+11:34:34,244 telegram.bot DEBUG No new updates found.
+11:34:34,244 telegram.bot DEBUG []
+11:34:34,245 telegram.bot DEBUG Exiting: get_updates
+11:34:34,245 telegram.bot DEBUG Entering: get_updates
+11:34:44,279 telegram.bot DEBUG No new updates found.
+11:34:44,279 telegram.bot DEBUG []
+11:34:44,280 telegram.bot DEBUG Exiting: get_updates
+11:34:44,280 telegram.bot DEBUG Entering: get_updates
+11:34:54,310 telegram.bot DEBUG No new updates found.
+11:34:54,310 telegram.bot DEBUG []
+11:34:54,310 telegram.bot DEBUG Exiting: get_updates
+11:34:54,310 telegram.bot DEBUG Entering: get_updates
+11:35:04,401 telegram.bot DEBUG No new updates found.
+11:35:04,401 telegram.bot DEBUG []
+11:35:04,402 telegram.bot DEBUG Exiting: get_updates
+11:35:04,402 telegram.bot DEBUG Entering: get_updates
+11:35:14,536 telegram.bot DEBUG No new updates found.
+11:35:14,536 telegram.bot DEBUG []
+11:35:14,540 telegram.bot DEBUG Exiting: get_updates
+11:35:14,540 telegram.bot DEBUG Entering: get_updates
+11:35:24,584 telegram.bot DEBUG No new updates found.
+11:35:24,584 telegram.bot DEBUG []
+11:35:24,584 telegram.bot DEBUG Exiting: get_updates
+11:35:24,584 telegram.bot DEBUG Entering: get_updates
+11:35:34,711 telegram.bot DEBUG No new updates found.
+11:35:34,711 telegram.bot DEBUG []
+11:35:34,711 telegram.bot DEBUG Exiting: get_updates
+11:35:34,711 telegram.bot DEBUG Entering: get_updates
+11:35:44,952 telegram.bot DEBUG No new updates found.
+11:35:44,952 telegram.bot DEBUG []
+11:35:44,952 telegram.bot DEBUG Exiting: get_updates
+11:35:44,952 telegram.bot DEBUG Entering: get_updates
+11:35:54,990 telegram.bot DEBUG No new updates found.
+11:35:54,990 telegram.bot DEBUG []
+11:35:54,990 telegram.bot DEBUG Exiting: get_updates
+11:35:54,990 telegram.bot DEBUG Entering: get_updates
+11:36:05,25 telegram.bot DEBUG No new updates found.
+11:36:05,25 telegram.bot DEBUG []
+11:36:05,26 telegram.bot DEBUG Exiting: get_updates
+11:36:05,26 telegram.bot DEBUG Entering: get_updates
+11:36:15,222 telegram.bot DEBUG No new updates found.
+11:36:15,222 telegram.bot DEBUG []
+11:36:15,222 telegram.bot DEBUG Exiting: get_updates
+11:36:15,222 telegram.bot DEBUG Entering: get_updates
+11:36:25,258 telegram.bot DEBUG No new updates found.
+11:36:25,258 telegram.bot DEBUG []
+11:36:25,258 telegram.bot DEBUG Exiting: get_updates
+11:36:25,258 telegram.bot DEBUG Entering: get_updates
+11:36:35,294 telegram.bot DEBUG No new updates found.
+11:36:35,294 telegram.bot DEBUG []
+11:36:35,294 telegram.bot DEBUG Exiting: get_updates
+11:36:35,294 telegram.bot DEBUG Entering: get_updates
+11:36:45,328 telegram.bot DEBUG No new updates found.
+11:36:45,328 telegram.bot DEBUG []
+11:36:45,329 telegram.bot DEBUG Exiting: get_updates
+11:36:45,329 telegram.bot DEBUG Entering: get_updates
+11:36:55,404 telegram.bot DEBUG No new updates found.
+11:36:55,404 telegram.bot DEBUG []
+11:36:55,404 telegram.bot DEBUG Exiting: get_updates
+11:36:55,404 telegram.bot DEBUG Entering: get_updates
+11:37:05,542 telegram.bot DEBUG No new updates found.
+11:37:05,542 telegram.bot DEBUG []
+11:37:05,542 telegram.bot DEBUG Exiting: get_updates
+11:37:05,543 telegram.bot DEBUG Entering: get_updates
+11:37:15,679 telegram.bot DEBUG No new updates found.
+11:37:15,679 telegram.bot DEBUG []
+11:37:15,679 telegram.bot DEBUG Exiting: get_updates
+11:37:15,680 telegram.bot DEBUG Entering: get_updates
+11:37:25,819 telegram.bot DEBUG No new updates found.
+11:37:25,819 telegram.bot DEBUG []
+11:37:25,819 telegram.bot DEBUG Exiting: get_updates
+11:37:25,820 telegram.bot DEBUG Entering: get_updates
+11:37:35,955 telegram.bot DEBUG No new updates found.
+11:37:35,955 telegram.bot DEBUG []
+11:37:35,955 telegram.bot DEBUG Exiting: get_updates
+11:37:35,955 telegram.bot DEBUG Entering: get_updates
+11:37:46,118 telegram.bot DEBUG No new updates found.
+11:37:46,118 telegram.bot DEBUG []
+11:37:46,118 telegram.bot DEBUG Exiting: get_updates
+11:37:46,118 telegram.bot DEBUG Entering: get_updates
+11:37:56,230 telegram.bot DEBUG No new updates found.
+11:37:56,230 telegram.bot DEBUG []
+11:37:56,230 telegram.bot DEBUG Exiting: get_updates
+11:37:56,230 telegram.bot DEBUG Entering: get_updates
+11:38:06,266 telegram.bot DEBUG No new updates found.
+11:38:06,266 telegram.bot DEBUG []
+11:38:06,266 telegram.bot DEBUG Exiting: get_updates
+11:38:06,266 telegram.bot DEBUG Entering: get_updates
+11:38:16,512 telegram.bot DEBUG No new updates found.
+11:38:16,512 telegram.bot DEBUG []
+11:38:16,512 telegram.bot DEBUG Exiting: get_updates
+11:38:16,512 telegram.bot DEBUG Entering: get_updates
+11:38:26,644 telegram.bot DEBUG No new updates found.
+11:38:26,644 telegram.bot DEBUG []
+11:38:26,644 telegram.bot DEBUG Exiting: get_updates
+11:38:26,644 telegram.bot DEBUG Entering: get_updates
+11:38:36,781 telegram.bot DEBUG No new updates found.
+11:38:36,781 telegram.bot DEBUG []
+11:38:36,781 telegram.bot DEBUG Exiting: get_updates
+11:38:36,781 telegram.bot DEBUG Entering: get_updates
+11:38:46,944 telegram.bot DEBUG No new updates found.
+11:38:46,944 telegram.bot DEBUG []
+11:38:46,944 telegram.bot DEBUG Exiting: get_updates
+11:38:46,944 telegram.bot DEBUG Entering: get_updates
+11:38:57,57 telegram.bot DEBUG No new updates found.
+11:38:57,58 telegram.bot DEBUG []
+11:38:57,58 telegram.bot DEBUG Exiting: get_updates
+11:38:57,58 telegram.bot DEBUG Entering: get_updates
+11:39:07,93 telegram.bot DEBUG No new updates found.
+11:39:07,93 telegram.bot DEBUG []
+11:39:07,93 telegram.bot DEBUG Exiting: get_updates
+11:39:07,93 telegram.bot DEBUG Entering: get_updates
+11:39:17,333 telegram.bot DEBUG No new updates found.
+11:39:17,333 telegram.bot DEBUG []
+11:39:17,333 telegram.bot DEBUG Exiting: get_updates
+11:39:17,333 telegram.bot DEBUG Entering: get_updates
+11:39:27,373 telegram.bot DEBUG No new updates found.
+11:39:27,373 telegram.bot DEBUG []
+11:39:27,373 telegram.bot DEBUG Exiting: get_updates
+11:39:27,373 telegram.bot DEBUG Entering: get_updates
+11:39:37,609 telegram.bot DEBUG No new updates found.
+11:39:37,609 telegram.bot DEBUG []
+11:39:37,609 telegram.bot DEBUG Exiting: get_updates
+11:39:37,609 telegram.bot DEBUG Entering: get_updates
+11:39:47,746 telegram.bot DEBUG No new updates found.
+11:39:47,746 telegram.bot DEBUG []
+11:39:47,746 telegram.bot DEBUG Exiting: get_updates
+11:39:47,746 telegram.bot DEBUG Entering: get_updates
+11:39:57,808 telegram.bot DEBUG No new updates found.
+11:39:57,808 telegram.bot DEBUG []
+11:39:57,808 telegram.bot DEBUG Exiting: get_updates
+11:39:57,808 telegram.bot DEBUG Entering: get_updates
+11:40:07,920 telegram.bot DEBUG No new updates found.
+11:40:07,920 telegram.bot DEBUG []
+11:40:07,920 telegram.bot DEBUG Exiting: get_updates
+11:40:07,920 telegram.bot DEBUG Entering: get_updates
+11:40:17,968 telegram.bot DEBUG No new updates found.
+11:40:17,969 telegram.bot DEBUG []
+11:40:17,969 telegram.bot DEBUG Exiting: get_updates
+11:40:17,969 telegram.bot DEBUG Entering: get_updates
+11:40:28,49 telegram.bot DEBUG No new updates found.
+11:40:28,50 telegram.bot DEBUG []
+11:40:28,50 telegram.bot DEBUG Exiting: get_updates
+11:40:28,50 telegram.bot DEBUG Entering: get_updates
+11:40:38,132 telegram.bot DEBUG No new updates found.
+11:40:38,132 telegram.bot DEBUG []
+11:40:38,133 telegram.bot DEBUG Exiting: get_updates
+11:40:38,133 telegram.bot DEBUG Entering: get_updates
+11:40:48,183 telegram.bot DEBUG No new updates found.
+11:40:48,184 telegram.bot DEBUG []
+11:40:48,184 telegram.bot DEBUG Exiting: get_updates
+11:40:48,184 telegram.bot DEBUG Entering: get_updates
+11:40:58,234 telegram.bot DEBUG No new updates found.
+11:40:58,234 telegram.bot DEBUG []
+11:40:58,234 telegram.bot DEBUG Exiting: get_updates
+11:40:58,234 telegram.bot DEBUG Entering: get_updates
+11:41:08,272 telegram.bot DEBUG No new updates found.
+11:41:08,272 telegram.bot DEBUG []
+11:41:08,272 telegram.bot DEBUG Exiting: get_updates
+11:41:08,272 telegram.bot DEBUG Entering: get_updates
+11:41:18,342 telegram.bot DEBUG No new updates found.
+11:41:18,342 telegram.bot DEBUG []
+11:41:18,343 telegram.bot DEBUG Exiting: get_updates
+11:41:18,343 telegram.bot DEBUG Entering: get_updates
+11:41:28,407 telegram.bot DEBUG No new updates found.
+11:41:28,407 telegram.bot DEBUG []
+11:41:28,408 telegram.bot DEBUG Exiting: get_updates
+11:41:28,408 telegram.bot DEBUG Entering: get_updates
+11:41:38,545 telegram.bot DEBUG No new updates found.
+11:41:38,546 telegram.bot DEBUG []
+11:41:38,546 telegram.bot DEBUG Exiting: get_updates
+11:41:38,546 telegram.bot DEBUG Entering: get_updates
+11:41:48,582 telegram.bot DEBUG No new updates found.
+11:41:48,582 telegram.bot DEBUG []
+11:41:48,582 telegram.bot DEBUG Exiting: get_updates
+11:41:48,582 telegram.bot DEBUG Entering: get_updates
+11:41:58,719 telegram.bot DEBUG No new updates found.
+11:41:58,719 telegram.bot DEBUG []
+11:41:58,719 telegram.bot DEBUG Exiting: get_updates
+11:41:58,719 telegram.bot DEBUG Entering: get_updates
+11:42:08,856 telegram.bot DEBUG No new updates found.
+11:42:08,856 telegram.bot DEBUG []
+11:42:08,856 telegram.bot DEBUG Exiting: get_updates
+11:42:08,856 telegram.bot DEBUG Entering: get_updates
+11:42:19,107 telegram.bot DEBUG No new updates found.
+11:42:19,107 telegram.bot DEBUG []
+11:42:19,111 telegram.bot DEBUG Exiting: get_updates
+11:42:19,111 telegram.bot DEBUG Entering: get_updates
+11:42:29,195 telegram.bot DEBUG No new updates found.
+11:42:29,195 telegram.bot DEBUG []
+11:42:29,195 telegram.bot DEBUG Exiting: get_updates
+11:42:29,195 telegram.bot DEBUG Entering: get_updates
+11:42:39,225 telegram.bot DEBUG No new updates found.
+11:42:39,226 telegram.bot DEBUG []
+11:42:39,226 telegram.bot DEBUG Exiting: get_updates
+11:42:39,226 telegram.bot DEBUG Entering: get_updates
+11:42:49,263 telegram.bot DEBUG No new updates found.
+11:42:49,263 telegram.bot DEBUG []
+11:42:49,263 telegram.bot DEBUG Exiting: get_updates
+11:42:49,263 telegram.bot DEBUG Entering: get_updates
+11:42:59,341 telegram.bot DEBUG No new updates found.
+11:42:59,341 telegram.bot DEBUG []
+11:42:59,341 telegram.bot DEBUG Exiting: get_updates
+11:42:59,341 telegram.bot DEBUG Entering: get_updates
+11:43:09,389 telegram.bot DEBUG No new updates found.
+11:43:09,389 telegram.bot DEBUG []
+11:43:09,389 telegram.bot DEBUG Exiting: get_updates
+11:43:09,389 telegram.bot DEBUG Entering: get_updates
+11:43:19,513 telegram.bot DEBUG No new updates found.
+11:43:19,513 telegram.bot DEBUG []
+11:43:19,513 telegram.bot DEBUG Exiting: get_updates
+11:43:19,513 telegram.bot DEBUG Entering: get_updates
+11:43:29,765 telegram.bot DEBUG No new updates found.
+11:43:29,765 telegram.bot DEBUG []
+11:43:29,765 telegram.bot DEBUG Exiting: get_updates
+11:43:29,766 telegram.bot DEBUG Entering: get_updates
+11:43:39,892 telegram.bot DEBUG No new updates found.
+11:43:39,892 telegram.bot DEBUG []
+11:43:39,892 telegram.bot DEBUG Exiting: get_updates
+11:43:39,892 telegram.bot DEBUG Entering: get_updates
+11:43:50,132 telegram.bot DEBUG No new updates found.
+11:43:50,132 telegram.bot DEBUG []
+11:43:50,132 telegram.bot DEBUG Exiting: get_updates
+11:43:50,132 telegram.bot DEBUG Entering: get_updates
+11:44:00,208 telegram.bot DEBUG No new updates found.
+11:44:00,208 telegram.bot DEBUG []
+11:44:00,208 telegram.bot DEBUG Exiting: get_updates
+11:44:00,208 telegram.bot DEBUG Entering: get_updates
+11:44:10,243 telegram.bot DEBUG No new updates found.
+11:44:10,244 telegram.bot DEBUG []
+11:44:10,244 telegram.bot DEBUG Exiting: get_updates
+11:44:10,244 telegram.bot DEBUG Entering: get_updates
+11:44:20,286 telegram.bot DEBUG No new updates found.
+11:44:20,286 telegram.bot DEBUG []
+11:44:20,287 telegram.bot DEBUG Exiting: get_updates
+11:44:20,287 telegram.bot DEBUG Entering: get_updates
+11:44:30,375 telegram.bot DEBUG No new updates found.
+11:44:30,376 telegram.bot DEBUG []
+11:44:30,376 telegram.bot DEBUG Exiting: get_updates
+11:44:30,376 telegram.bot DEBUG Entering: get_updates
+11:44:40,412 telegram.bot DEBUG No new updates found.
+11:44:40,412 telegram.bot DEBUG []
+11:44:40,412 telegram.bot DEBUG Exiting: get_updates
+11:44:40,412 telegram.bot DEBUG Entering: get_updates
+11:44:50,446 telegram.bot DEBUG No new updates found.
+11:44:50,447 telegram.bot DEBUG []
+11:44:50,447 telegram.bot DEBUG Exiting: get_updates
+11:44:50,447 telegram.bot DEBUG Entering: get_updates
+11:45:00,585 telegram.bot DEBUG No new updates found.
+11:45:00,585 telegram.bot DEBUG []
+11:45:00,585 telegram.bot DEBUG Exiting: get_updates
+11:45:00,585 telegram.bot DEBUG Entering: get_updates
+11:45:10,826 telegram.bot DEBUG No new updates found.
+11:45:10,826 telegram.bot DEBUG []
+11:45:10,826 telegram.bot DEBUG Exiting: get_updates
+11:45:10,827 telegram.bot DEBUG Entering: get_updates
+11:45:21,76 telegram.bot DEBUG No new updates found.
+11:45:21,76 telegram.bot DEBUG []
+11:45:21,76 telegram.bot DEBUG Exiting: get_updates
+11:45:21,76 telegram.bot DEBUG Entering: get_updates
+11:45:31,188 telegram.bot DEBUG No new updates found.
+11:45:31,188 telegram.bot DEBUG []
+11:45:31,188 telegram.bot DEBUG Exiting: get_updates
+11:45:31,188 telegram.bot DEBUG Entering: get_updates
+11:45:41,344 telegram.bot DEBUG No new updates found.
+11:45:41,344 telegram.bot DEBUG []
+11:45:41,344 telegram.bot DEBUG Exiting: get_updates
+11:45:41,344 telegram.bot DEBUG Entering: get_updates
+11:45:51,478 telegram.bot DEBUG No new updates found.
+11:45:51,479 telegram.bot DEBUG []
+11:45:51,479 telegram.bot DEBUG Exiting: get_updates
+11:45:51,479 telegram.bot DEBUG Entering: get_updates
+11:46:01,729 telegram.bot DEBUG No new updates found.
+11:46:01,730 telegram.bot DEBUG []
+11:46:01,730 telegram.bot DEBUG Exiting: get_updates
+11:46:01,730 telegram.bot DEBUG Entering: get_updates
+11:46:11,851 telegram.bot DEBUG No new updates found.
+11:46:11,851 telegram.bot DEBUG []
+11:46:11,855 telegram.bot DEBUG Exiting: get_updates
+11:46:11,855 telegram.bot DEBUG Entering: get_updates
+11:46:21,893 telegram.bot DEBUG No new updates found.
+11:46:21,893 telegram.bot DEBUG []
+11:46:21,893 telegram.bot DEBUG Exiting: get_updates
+11:46:21,893 telegram.bot DEBUG Entering: get_updates
+11:46:32,41 telegram.bot DEBUG No new updates found.
+11:46:32,41 telegram.bot DEBUG []
+11:46:32,41 telegram.bot DEBUG Exiting: get_updates
+11:46:32,41 telegram.bot DEBUG Entering: get_updates
+11:46:42,168 telegram.bot DEBUG No new updates found.
+11:46:42,168 telegram.bot DEBUG []
+11:46:42,173 telegram.bot DEBUG Exiting: get_updates
+11:46:42,173 telegram.bot DEBUG Entering: get_updates
+11:46:52,213 telegram.bot DEBUG No new updates found.
+11:46:52,213 telegram.bot DEBUG []
+11:46:52,213 telegram.bot DEBUG Exiting: get_updates
+11:46:52,214 telegram.bot DEBUG Entering: get_updates
+11:47:02,245 telegram.bot DEBUG No new updates found.
+11:47:02,245 telegram.bot DEBUG []
+11:47:02,245 telegram.bot DEBUG Exiting: get_updates
+11:47:02,246 telegram.bot DEBUG Entering: get_updates
+11:47:12,475 telegram.bot DEBUG No new updates found.
+11:47:12,475 telegram.bot DEBUG []
+11:47:12,479 telegram.bot DEBUG Exiting: get_updates
+11:47:12,480 telegram.bot DEBUG Entering: get_updates
+11:47:22,617 telegram.bot DEBUG No new updates found.
+11:47:22,617 telegram.bot DEBUG []
+11:47:22,617 telegram.bot DEBUG Exiting: get_updates
+11:47:22,617 telegram.bot DEBUG Entering: get_updates
+11:47:32,739 telegram.bot DEBUG No new updates found.
+11:47:32,739 telegram.bot DEBUG []
+11:47:32,739 telegram.bot DEBUG Exiting: get_updates
+11:47:32,740 telegram.bot DEBUG Entering: get_updates
+11:47:42,790 telegram.bot DEBUG No new updates found.
+11:47:42,790 telegram.bot DEBUG []
+11:47:42,790 telegram.bot DEBUG Exiting: get_updates
+11:47:42,791 telegram.bot DEBUG Entering: get_updates
+11:47:52,834 telegram.bot DEBUG No new updates found.
+11:47:52,834 telegram.bot DEBUG []
+11:47:52,834 telegram.bot DEBUG Exiting: get_updates
+11:47:52,834 telegram.bot DEBUG Entering: get_updates
+11:48:03,66 telegram.bot DEBUG No new updates found.
+11:48:03,66 telegram.bot DEBUG []
+11:48:03,66 telegram.bot DEBUG Exiting: get_updates
+11:48:03,66 telegram.bot DEBUG Entering: get_updates
+11:48:13,133 telegram.bot DEBUG No new updates found.
+11:48:13,134 telegram.bot DEBUG []
+11:48:13,134 telegram.bot DEBUG Exiting: get_updates
+11:48:13,134 telegram.bot DEBUG Entering: get_updates
+11:48:23,268 telegram.bot DEBUG No new updates found.
+11:48:23,268 telegram.bot DEBUG []
+11:48:23,269 telegram.bot DEBUG Exiting: get_updates
+11:48:23,269 telegram.bot DEBUG Entering: get_updates
+11:48:33,305 telegram.bot DEBUG No new updates found.
+11:48:33,305 telegram.bot DEBUG []
+11:48:33,305 telegram.bot DEBUG Exiting: get_updates
+11:48:33,305 telegram.bot DEBUG Entering: get_updates
+11:48:43,351 telegram.bot DEBUG No new updates found.
+11:48:43,351 telegram.bot DEBUG []
+11:48:43,351 telegram.bot DEBUG Exiting: get_updates
+11:48:43,351 telegram.bot DEBUG Entering: get_updates
+11:48:53,448 telegram.bot DEBUG No new updates found.
+11:48:53,449 telegram.bot DEBUG []
+11:48:53,449 telegram.bot DEBUG Exiting: get_updates
+11:48:53,449 telegram.bot DEBUG Entering: get_updates
+11:49:03,499 telegram.bot DEBUG No new updates found.
+11:49:03,499 telegram.bot DEBUG []
+11:49:03,500 telegram.bot DEBUG Exiting: get_updates
+11:49:03,500 telegram.bot DEBUG Entering: get_updates
+11:49:13,621 telegram.bot DEBUG No new updates found.
+11:49:13,621 telegram.bot DEBUG []
+11:49:13,621 telegram.bot DEBUG Exiting: get_updates
+11:49:13,622 telegram.bot DEBUG Entering: get_updates
+11:49:23,760 telegram.bot DEBUG No new updates found.
+11:49:23,760 telegram.bot DEBUG []
+11:49:23,760 telegram.bot DEBUG Exiting: get_updates
+11:49:23,760 telegram.bot DEBUG Entering: get_updates
+11:49:34,113 telegram.bot DEBUG No new updates found.
+11:49:34,113 telegram.bot DEBUG []
+11:49:34,113 telegram.bot DEBUG Exiting: get_updates
+11:49:34,113 telegram.bot DEBUG Entering: get_updates
+11:49:44,208 telegram.bot DEBUG No new updates found.
+11:49:44,208 telegram.bot DEBUG []
+11:49:44,209 telegram.bot DEBUG Exiting: get_updates
+11:49:44,209 telegram.bot DEBUG Entering: get_updates
+11:49:54,245 telegram.bot DEBUG No new updates found.
+11:49:54,245 telegram.bot DEBUG []
+11:49:54,245 telegram.bot DEBUG Exiting: get_updates
+11:49:54,246 telegram.bot DEBUG Entering: get_updates
+11:50:04,297 telegram.bot DEBUG No new updates found.
+11:50:04,297 telegram.bot DEBUG []
+11:50:04,297 telegram.bot DEBUG Exiting: get_updates
+11:50:04,297 telegram.bot DEBUG Entering: get_updates
+11:50:14,336 telegram.bot DEBUG No new updates found.
+11:50:14,336 telegram.bot DEBUG []
+11:50:14,336 telegram.bot DEBUG Exiting: get_updates
+11:50:14,336 telegram.bot DEBUG Entering: get_updates
+11:53:41,220 telegram.ext.dispatcher DEBUG Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x7f2627671490>
+11:53:41,221 apscheduler.scheduler INFO Scheduler started
+11:53:41,222 apscheduler.scheduler DEBUG Looking for jobs to run
+11:53:41,222 telegram.bot DEBUG Entering: get_me
+11:53:41,222 apscheduler.scheduler DEBUG No jobs; waiting until a job is added
+11:53:41,585 telegram.bot DEBUG {'first_name': 'Sturm Service', 'id': 5043438343, 'can_read_all_group_messages': False, 'username': 'AgnesSturmBot', 'supports_inline_queries': False, 'is_bot': True, 'can_join_groups': True}
+11:53:41,585 telegram.bot DEBUG Exiting: get_me
+11:53:41,585 telegram.ext.updater DEBUG Bot:5043438343:dispatcher - started
+11:53:41,586 telegram.ext.updater DEBUG Bot:5043438343:updater - started
+11:53:41,586 telegram.ext.updater DEBUG Updater thread started (polling)
+11:53:41,586 telegram.ext.updater DEBUG Start network loop retry bootstrap del webhook
+11:53:41,586 telegram.ext.updater DEBUG Deleting webhook
+11:53:41,586 telegram.bot DEBUG Entering: delete_webhook
+11:53:41,586 telegram.ext.updater DEBUG Waiting for Dispatcher and polling to start
+11:53:41,587 telegram.ext.dispatcher DEBUG Dispatcher started
+11:53:41,619 telegram.bot DEBUG True
+11:53:41,619 telegram.bot DEBUG Exiting: delete_webhook
+11:53:41,619 telegram.ext.updater DEBUG Bootstrap done
+11:53:41,619 telegram.ext.updater DEBUG Start network loop retry getting Updates
+11:53:41,619 telegram.bot DEBUG Entering: get_updates
+11:53:44,682 telegram.bot DEBUG Getting updates: [433884573]
+11:53:44,683 telegram.bot DEBUG [<telegram.update.Update object at 0x7f262bbfa2c0>]
+11:53:44,683 telegram.bot DEBUG Exiting: get_updates
+11:53:44,683 telegram.bot DEBUG Entering: get_updates
+11:53:44,683 telegram.ext.dispatcher DEBUG Processing Update: {'message': {'new_chat_members': [], 'message_id': 127, 'caption_entities': [], 'group_chat_created': False, 'delete_chat_photo': False, 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 11}], 'channel_chat_created': False, 'photo': [], 'date': 1642244024, 'supergroup_chat_created': False, 'text': '/folge_3755', 'new_chat_photo': [], 'chat': {'id': 858247705, 'type': 'private', 'first_name': 'Ludwig'}, 'from': {'first_name': 'Ludwig', 'id': 858247705, 'language_code': 'de', 'is_bot': False}}, 'update_id': 433884573}
+11:53:44,690 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.daserste.de:443
+11:53:45,96 urllib3.connectionpool DEBUG https://www.daserste.de:443 "GET /unterhaltung/soaps-telenovelas/sturm-der-liebe/videos/sturm-der-liebe-folge-3755-video-100.html HTTP/1.1" 404 None
+11:53:45,158 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.daserste.de:443
+11:53:45,504 urllib3.connectionpool DEBUG https://www.daserste.de:443 "GET /unterhaltung/soaps-telenovelas/sturm-der-liebe/videos/sturm-der-liebe-folge-3755-video-104.html HTTP/1.1" 404 None
+11:53:45,567 telegram.bot DEBUG Entering: send_message
+11:53:45,752 telegram.bot DEBUG {'new_chat_members': [], 'message_id': 128, 'caption_entities': [], 'group_chat_created': False, 'delete_chat_photo': False, 'entities': [], 'channel_chat_created': False, 'photo': [], 'date': 1642244025, 'supergroup_chat_created': False, 'text': 'Schande... 🙄 Die Folge habe ich nicht in meiner Datenbank.', 'new_chat_photo': [], 'chat': {'id': 858247705, 'type': 'private', 'first_name': 'Ludwig'}, 'from': {'first_name': 'Sturm Service', 'id': 5043438343, 'username': 'AgnesSturmBot', 'is_bot': True}}
+11:53:45,752 telegram.bot DEBUG Exiting: send_message
+11:53:54,265 telegram.bot DEBUG Getting updates: [433884574]
+11:53:54,265 telegram.bot DEBUG [<telegram.update.Update object at 0x7f262bbf9b40>]
+11:53:54,265 telegram.bot DEBUG Exiting: get_updates
+11:53:54,266 telegram.bot DEBUG Entering: get_updates
+11:53:54,266 telegram.ext.dispatcher DEBUG Processing Update: {'message': {'new_chat_members': [], 'message_id': 129, 'caption_entities': [], 'group_chat_created': False, 'delete_chat_photo': False, 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 11}], 'channel_chat_created': False, 'photo': [], 'date': 1642244034, 'supergroup_chat_created': False, 'text': '/folge_3754', 'new_chat_photo': [], 'chat': {'id': 858247705, 'type': 'private', 'first_name': 'Ludwig'}, 'from': {'first_name': 'Ludwig', 'id': 858247705, 'language_code': 'de', 'is_bot': False}}, 'update_id': 433884574}
+11:53:54,269 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.daserste.de:443
+11:53:54,619 urllib3.connectionpool DEBUG https://www.daserste.de:443 "GET /unterhaltung/soaps-telenovelas/sturm-der-liebe/videos/sturm-der-liebe-folge-3754-video-100.html HTTP/1.1" 404 None
+11:53:54,677 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.daserste.de:443
+11:53:54,828 urllib3.connectionpool DEBUG https://www.daserste.de:443 "GET /unterhaltung/soaps-telenovelas/sturm-der-liebe/videos/sturm-der-liebe-folge-3754-video-104.html HTTP/1.1" 200 162869
+11:53:54,950 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): www.daserste.de:443
+11:53:55,107 urllib3.connectionpool DEBUG https://www.daserste.de:443 "GET /unterhaltung/soaps-telenovelas/sturm-der-liebe/videos/sturm-der-liebe-folge-3754-video-104.html HTTP/1.1" 200 162869
+11:53:55,235 telegram.bot DEBUG Entering: send_message
+11:53:55,414 telegram.bot DEBUG {'new_chat_members': [], 'message_id': 130, 'caption_entities': [], 'group_chat_created': False, 'delete_chat_photo': False, 'entities': [{'type': 'url', 'offset': 52, 'length': 119}], 'channel_chat_created': False, 'photo': [], 'date': 1642244035, 'supergroup_chat_created': False, 'text': 'Folge 3754? Klaro, hier ist der Link zur Folge: \n \n https://www.daserste.de/unterhaltung/soaps-telenovelas/sturm-der-liebe/videos/sturm-der-liebe-folge-3754-video-104.html\n \n Viel Vergnügen 😘', 'new_chat_photo': [], 'chat': {'id': 858247705, 'type': 'private', 'first_name': 'Ludwig'}, 'from': {'first_name': 'Sturm Service', 'id': 5043438343, 'username': 'AgnesSturmBot', 'is_bot': True}}
+11:53:55,415 telegram.bot DEBUG Exiting: send_message
+11:53:55,415 telegram.bot DEBUG Entering: send_message
+11:53:55,570 telegram.bot DEBUG {'new_chat_members': [], 'message_id': 131, 'caption_entities': [], 'group_chat_created': False, 'delete_chat_photo': False, 'entities': [{'type': 'bot_command', 'offset': 309, 'length': 11}], 'channel_chat_created': False, 'photo': [], 'date': 1642244035, 'supergroup_chat_created': False, 'text': 'Naturburschen (3754) | Sturm der Liebe\n\nAndré nimmt sich vor, Michael beim Wald-Workshop zu zeigen, wer von ihnen der echte Naturbursche ist. Doch dann erfährt er, dass sich die Teilnehmer während des Workshops ausschließlich von dem ernähren sollen, was der Wald ihnen bietet.\n\nDein Link zur nächsten Folge: /folge_3755', 'new_chat_photo': [], 'chat': {'id': 858247705, 'type': 'private', 'first_name': 'Ludwig'}, 'from': {'first_name': 'Sturm Service', 'id': 5043438343, 'username': 'AgnesSturmBot', 'is_bot': True}}
+11:53:55,571 telegram.bot DEBUG Exiting: send_message
+11:54:04,343 telegram.bot DEBUG No new updates found.
+11:54:04,343 telegram.bot DEBUG []
+11:54:04,343 telegram.bot DEBUG Exiting: get_updates
+11:54:04,344 telegram.bot DEBUG Entering: get_updates
+11:54:05,779 telegram.bot DEBUG Getting updates: [433884575]
+11:54:05,780 telegram.bot DEBUG [<telegram.update.Update object at 0x7f262bbfa680>]
+11:54:05,780 telegram.bot DEBUG Exiting: get_updates
+11:54:05,780 telegram.bot DEBUG Entering: get_updates
+11:54:05,780 telegram.ext.dispatcher DEBUG Processing Update: {'message': {'new_chat_members': [], 'message_id': 132, 'caption_entities': [], 'group_chat_created': False, 'delete_chat_photo': False, 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 11}], 'channel_chat_created': False, 'photo': [], 'date': 1642244045, 'supergroup_chat_created': False, 'text': '/watch_info', 'new_chat_photo': [], 'chat': {'id': 858247705, 'type': 'private', 'first_name': 'Ludwig'}, 'from': {'first_name': 'Ludwig', 'id': 858247705, 'language_code': 'de', 'is_bot': False}}, 'update_id': 433884575}
+11:54:05,781 telegram.bot DEBUG Entering: send_message
+11:54:05,871 telegram.bot DEBUG {'new_chat_members': [], 'message_id': 133, 'caption_entities': [], 'group_chat_created': False, 'delete_chat_photo': False, 'entities': [], 'channel_chat_created': False, 'photo': [], 'date': 1642244045, 'supergroup_chat_created': False, 'text': 'Hier siehst du wär gerade bei welcher Folge ist:\n\nLudwig: Folge 3754\nAgnes: Folge ?', 'new_chat_photo': [], 'chat': {'id': 858247705, 'type': 'private', 'first_name': 'Ludwig'}, 'from': {'first_name': 'Sturm Service', 'id': 5043438343, 'username': 'AgnesSturmBot', 'is_bot': True}}
+11:54:05,871 telegram.bot DEBUG Exiting: send_message
+11:54:16,130 telegram.bot DEBUG No new updates found.
+11:54:16,130 telegram.bot DEBUG []
+11:54:16,131 telegram.bot DEBUG Exiting: get_updates
+11:54:16,131 telegram.bot DEBUG Entering: get_updates
+11:54:26,257 telegram.bot DEBUG No new updates found.
+11:54:26,257 telegram.bot DEBUG []
+11:54:26,257 telegram.bot DEBUG Exiting: get_updates
+11:54:26,258 telegram.bot DEBUG Entering: get_updates
+11:54:36,497 telegram.bot DEBUG No new updates found.
+11:54:36,497 telegram.bot DEBUG []
+11:54:36,497 telegram.bot DEBUG Exiting: get_updates
+11:54:36,497 telegram.bot DEBUG Entering: get_updates
+11:54:46,534 telegram.bot DEBUG No new updates found.
+11:54:46,534 telegram.bot DEBUG []
+11:54:46,534 telegram.bot DEBUG Exiting: get_updates
+11:54:46,534 telegram.bot DEBUG Entering: get_updates
+11:54:56,577 telegram.bot DEBUG No new updates found.
+11:54:56,577 telegram.bot DEBUG []
+11:54:56,577 telegram.bot DEBUG Exiting: get_updates
+11:54:56,577 telegram.bot DEBUG Entering: get_updates
+11:55:06,810 telegram.bot DEBUG No new updates found.
+11:55:06,810 telegram.bot DEBUG []
+11:55:06,810 telegram.bot DEBUG Exiting: get_updates
+11:55:06,810 telegram.bot DEBUG Entering: get_updates
+11:55:16,946 telegram.bot DEBUG No new updates found.
+11:55:16,946 telegram.bot DEBUG []
+11:55:16,946 telegram.bot DEBUG Exiting: get_updates
+11:55:16,946 telegram.bot DEBUG Entering: get_updates
+11:55:27,84 telegram.bot DEBUG No new updates found.
+11:55:27,84 telegram.bot DEBUG []
+11:55:27,84 telegram.bot DEBUG Exiting: get_updates
+11:55:27,84 telegram.bot DEBUG Entering: get_updates
+11:55:37,119 telegram.bot DEBUG No new updates found.
+11:55:37,120 telegram.bot DEBUG []
+11:55:37,120 telegram.bot DEBUG Exiting: get_updates
+11:55:37,120 telegram.bot DEBUG Entering: get_updates
+11:55:47,360 telegram.bot DEBUG No new updates found.
+11:55:47,360 telegram.bot DEBUG []
+11:55:47,360 telegram.bot DEBUG Exiting: get_updates
+11:55:47,360 telegram.bot DEBUG Entering: get_updates
+11:55:57,497 telegram.bot DEBUG No new updates found.
+11:55:57,498 telegram.bot DEBUG []
+11:55:57,498 telegram.bot DEBUG Exiting: get_updates
+11:55:57,498 telegram.bot DEBUG Entering: get_updates
+11:56:07,640 telegram.bot DEBUG No new updates found.
+11:56:07,640 telegram.bot DEBUG []
+11:56:07,640 telegram.bot DEBUG Exiting: get_updates
+11:56:07,641 telegram.bot DEBUG Entering: get_updates
+11:56:17,876 telegram.bot DEBUG No new updates found.
+11:56:17,877 telegram.bot DEBUG []
+11:56:17,877 telegram.bot DEBUG Exiting: get_updates
+11:56:17,877 telegram.bot DEBUG Entering: get_updates
+11:56:27,912 telegram.bot DEBUG No new updates found.
+11:56:27,912 telegram.bot DEBUG []
+11:56:27,916 telegram.bot DEBUG Exiting: get_updates
+11:56:27,917 telegram.bot DEBUG Entering: get_updates
+11:56:38,150 telegram.bot DEBUG No new updates found.
+11:56:38,150 telegram.bot DEBUG []
+11:56:38,151 telegram.bot DEBUG Exiting: get_updates
+11:56:38,151 telegram.bot DEBUG Entering: get_updates
+11:56:48,201 telegram.bot DEBUG No new updates found.
+11:56:48,201 telegram.bot DEBUG []
+11:56:48,201 telegram.bot DEBUG Exiting: get_updates
+11:56:48,201 telegram.bot DEBUG Entering: get_updates
+11:56:58,232 telegram.bot DEBUG No new updates found.
+11:56:58,232 telegram.bot DEBUG []
+11:56:58,232 telegram.bot DEBUG Exiting: get_updates
+11:56:58,232 telegram.bot DEBUG Entering: get_updates
+11:57:08,269 telegram.bot DEBUG No new updates found.
+11:57:08,269 telegram.bot DEBUG []
+11:57:08,269 telegram.bot DEBUG Exiting: get_updates
+11:57:08,269 telegram.bot DEBUG Entering: get_updates
+11:57:18,390 telegram.bot DEBUG No new updates found.
+11:57:18,390 telegram.bot DEBUG []
+11:57:18,395 telegram.bot DEBUG Exiting: get_updates
+11:57:18,395 telegram.bot DEBUG Entering: get_updates
+11:57:28,429 telegram.bot DEBUG No new updates found.
+11:57:28,429 telegram.bot DEBUG []
+11:57:28,433 telegram.bot DEBUG Exiting: get_updates
+11:57:28,434 telegram.bot DEBUG Entering: get_updates
+11:57:38,562 telegram.bot DEBUG No new updates found.
+11:57:38,562 telegram.bot DEBUG []
+11:57:38,562 telegram.bot DEBUG Exiting: get_updates
+11:57:38,562 telegram.bot DEBUG Entering: get_updates
+11:57:48,801 telegram.bot DEBUG No new updates found.
+11:57:48,801 telegram.bot DEBUG []
+11:57:48,801 telegram.bot DEBUG Exiting: get_updates
+11:57:48,801 telegram.bot DEBUG Entering: get_updates
+11:57:58,938 telegram.bot DEBUG No new updates found.
+11:57:58,938 telegram.bot DEBUG []
+11:57:58,938 telegram.bot DEBUG Exiting: get_updates
+11:57:58,938 telegram.bot DEBUG Entering: get_updates
+11:58:09,75 telegram.bot DEBUG No new updates found.
+11:58:09,75 telegram.bot DEBUG []
+11:58:09,75 telegram.bot DEBUG Exiting: get_updates
+11:58:09,75 telegram.bot DEBUG Entering: get_updates
+11:58:19,195 telegram.bot DEBUG No new updates found.
+11:58:19,195 telegram.bot DEBUG []
+11:58:19,196 telegram.bot DEBUG Exiting: get_updates
+11:58:19,196 telegram.bot DEBUG Entering: get_updates
+11:58:29,233 telegram.bot DEBUG No new updates found.
+11:58:29,234 telegram.bot DEBUG []
+11:58:29,238 telegram.bot DEBUG Exiting: get_updates
+11:58:29,238 telegram.bot DEBUG Entering: get_updates
+11:58:39,278 telegram.bot DEBUG No new updates found.
+11:58:39,278 telegram.bot DEBUG []
+11:58:39,278 telegram.bot DEBUG Exiting: get_updates
+11:58:39,278 telegram.bot DEBUG Entering: get_updates
+11:58:49,319 telegram.bot DEBUG No new updates found.
+11:58:49,319 telegram.bot DEBUG []
+11:58:49,319 telegram.bot DEBUG Exiting: get_updates
+11:58:49,319 telegram.bot DEBUG Entering: get_updates
+11:58:59,444 telegram.bot DEBUG No new updates found.
+11:58:59,444 telegram.bot DEBUG []
+11:58:59,444 telegram.bot DEBUG Exiting: get_updates
+11:58:59,444 telegram.bot DEBUG Entering: get_updates
+11:59:09,488 telegram.bot DEBUG No new updates found.
+11:59:09,488 telegram.bot DEBUG []
+11:59:09,488 telegram.bot DEBUG Exiting: get_updates
+11:59:09,489 telegram.bot DEBUG Entering: get_updates
+11:59:19,840 telegram.bot DEBUG No new updates found.
+11:59:19,840 telegram.bot DEBUG []
+11:59:19,840 telegram.bot DEBUG Exiting: get_updates
+11:59:19,841 telegram.bot DEBUG Entering: get_updates
+11:59:29,917 telegram.bot DEBUG No new updates found.
+11:59:29,918 telegram.bot DEBUG []
+11:59:29,918 telegram.bot DEBUG Exiting: get_updates
+11:59:29,918 telegram.bot DEBUG Entering: get_updates
+11:59:39,953 telegram.bot DEBUG No new updates found.
+11:59:39,953 telegram.bot DEBUG []
+11:59:39,954 telegram.bot DEBUG Exiting: get_updates
+11:59:39,954 telegram.bot DEBUG Entering: get_updates
+11:59:50,35 telegram.bot DEBUG No new updates found.
+11:59:50,35 telegram.bot DEBUG []
+11:59:50,35 telegram.bot DEBUG Exiting: get_updates
+11:59:50,35 telegram.bot DEBUG Entering: get_updates
+12:00:00,70 telegram.bot DEBUG No new updates found.
+12:00:00,70 telegram.bot DEBUG []
+12:00:00,70 telegram.bot DEBUG Exiting: get_updates
+12:00:00,70 telegram.bot DEBUG Entering: get_updates
+12:00:10,208 telegram.bot DEBUG No new updates found.
+12:00:10,208 telegram.bot DEBUG []
+12:00:10,208 telegram.bot DEBUG Exiting: get_updates
+12:00:10,208 telegram.bot DEBUG Entering: get_updates
+12:00:20,255 telegram.bot DEBUG No new updates found.
+12:00:20,255 telegram.bot DEBUG []
+12:00:20,255 telegram.bot DEBUG Exiting: get_updates
+12:00:20,255 telegram.bot DEBUG Entering: get_updates
+12:00:30,379 telegram.bot DEBUG No new updates found.
+12:00:30,379 telegram.bot DEBUG []
+12:00:30,379 telegram.bot DEBUG Exiting: get_updates
+12:00:30,379 telegram.bot DEBUG Entering: get_updates
+12:00:40,517 telegram.bot DEBUG No new updates found.
+12:00:40,517 telegram.bot DEBUG []
+12:00:40,517 telegram.bot DEBUG Exiting: get_updates
+12:00:40,517 telegram.bot DEBUG Entering: get_updates
+12:00:50,659 telegram.bot DEBUG No new updates found.
+12:00:50,659 telegram.bot DEBUG []
+12:00:50,659 telegram.bot DEBUG Exiting: get_updates
+12:00:50,660 telegram.bot DEBUG Entering: get_updates
+12:01:00,894 telegram.bot DEBUG No new updates found.
+12:01:00,894 telegram.bot DEBUG []
+12:01:00,894 telegram.bot DEBUG Exiting: get_updates
+12:01:00,894 telegram.bot DEBUG Entering: get_updates
+12:01:11,132 telegram.bot DEBUG No new updates found.
+12:01:11,133 telegram.bot DEBUG []
+12:01:11,133 telegram.bot DEBUG Exiting: get_updates
+12:01:11,133 telegram.bot DEBUG Entering: get_updates
+12:01:21,372 telegram.bot DEBUG No new updates found.
+12:01:21,373 telegram.bot DEBUG []
+12:01:21,373 telegram.bot DEBUG Exiting: get_updates
+12:01:21,373 telegram.bot DEBUG Entering: get_updates
+12:01:31,411 telegram.bot DEBUG No new updates found.
+12:01:31,412 telegram.bot DEBUG []
+12:01:31,412 telegram.bot DEBUG Exiting: get_updates
+12:01:31,412 telegram.bot DEBUG Entering: get_updates
+12:01:41,647 telegram.bot DEBUG No new updates found.
+12:01:41,647 telegram.bot DEBUG []
+12:01:41,647 telegram.bot DEBUG Exiting: get_updates
+12:01:41,647 telegram.bot DEBUG Entering: get_updates
+12:01:51,896 telegram.bot DEBUG No new updates found.
+12:01:51,896 telegram.bot DEBUG []
+12:01:51,896 telegram.bot DEBUG Exiting: get_updates
+12:01:51,896 telegram.bot DEBUG Entering: get_updates
+12:02:01,937 telegram.bot DEBUG No new updates found.
+12:02:01,937 telegram.bot DEBUG []
+12:02:01,937 telegram.bot DEBUG Exiting: get_updates
+12:02:01,937 telegram.bot DEBUG Entering: get_updates
+12:02:11,978 telegram.bot DEBUG No new updates found.
+12:02:11,978 telegram.bot DEBUG []
+12:02:11,978 telegram.bot DEBUG Exiting: get_updates
+12:02:11,978 telegram.bot DEBUG Entering: get_updates
+12:02:22,128 telegram.bot DEBUG No new updates found.
+12:02:22,128 telegram.bot DEBUG []
+12:02:22,128 telegram.bot DEBUG Exiting: get_updates
+12:02:22,128 telegram.bot DEBUG Entering: get_updates
+12:02:32,350 telegram.bot DEBUG No new updates found.
+12:02:32,350 telegram.bot DEBUG []
+12:02:32,350 telegram.bot DEBUG Exiting: get_updates
+12:02:32,350 telegram.bot DEBUG Entering: get_updates
+12:02:42,470 telegram.bot DEBUG No new updates found.
+12:02:42,470 telegram.bot DEBUG []
+12:02:42,471 telegram.bot DEBUG Exiting: get_updates
+12:02:42,471 telegram.bot DEBUG Entering: get_updates
+12:02:52,608 telegram.bot DEBUG No new updates found.
+12:02:52,608 telegram.bot DEBUG []
+12:02:52,608 telegram.bot DEBUG Exiting: get_updates
+12:02:52,608 telegram.bot DEBUG Entering: get_updates
+12:03:02,642 telegram.bot DEBUG No new updates found.
+12:03:02,643 telegram.bot DEBUG []
+12:03:02,643 telegram.bot DEBUG Exiting: get_updates
+12:03:02,643 telegram.bot DEBUG Entering: get_updates
+12:03:12,786 telegram.bot DEBUG No new updates found.
+12:03:12,786 telegram.bot DEBUG []
+12:03:12,786 telegram.bot DEBUG Exiting: get_updates
+12:03:12,786 telegram.bot DEBUG Entering: get_updates
+12:05:56,810 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/llorenz/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/llorenz/.local/lib/python3.10/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/home/llorenz/Dokumente/Software-Projekte/SturmBot/bot.py", line 71, in folge_id
+    process_folge(update, CallbackContext, folgennummer)
+  File "/home/llorenz/Dokumente/Software-Projekte/SturmBot/bot.py", line 103, in process_folge
+    test_for_match(update, context)
+  File "/home/llorenz/Dokumente/Software-Projekte/SturmBot/bot.py", line 88, in test_for_match
+    update.message.reply("🎊")
+AttributeError: 'Message' object has no attribute 'reply'
+12:08:11,667 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/llorenz/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/llorenz/.local/lib/python3.10/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/home/llorenz/Dokumente/Software-Projekte/SturmBot/bot.py", line 71, in folge_id
+    process_folge(update, CallbackContext, folgennummer)
+  File "/home/llorenz/Dokumente/Software-Projekte/SturmBot/bot.py", line 105, in process_folge
+    test_for_match(update, context)
+  File "/home/llorenz/Dokumente/Software-Projekte/SturmBot/bot.py", line 90, in test_for_match
+    update.message.reply("🎊")
+AttributeError: 'Message' object has no attribute 'reply'
+12:30:02,891 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/llorenz/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/llorenz/.local/lib/python3.10/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/home/llorenz/Dokumente/Software-Projekte/SturmBot/bot.py", line 72, in folge_id
+    process_folge(update, CallbackContext, folgennummer)
+  File "/home/llorenz/Dokumente/Software-Projekte/SturmBot/bot.py", line 111, in process_folge
+    test_for_match(update, context)
+  File "/home/llorenz/Dokumente/Software-Projekte/SturmBot/bot.py", line 93, in test_for_match
+    context.bot.send_message(chat_id=first_name_to_chat["Ludwig"], text="🎊")
+AttributeError: 'property' object has no attribute 'send_message'
+12:31:04,179 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/llorenz/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/llorenz/.local/lib/python3.10/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/home/llorenz/Dokumente/Software-Projekte/SturmBot/bot.py", line 72, in folge_id
+    process_folge(update, CallbackContext, folgennummer)
+  File "/home/llorenz/Dokumente/Software-Projekte/SturmBot/bot.py", line 112, in process_folge
+    test_for_match(update, context)
+  File "/home/llorenz/Dokumente/Software-Projekte/SturmBot/bot.py", line 94, in test_for_match
+    context.bot.send_message(chat_id=first_name_to_chat["Ludwig"], text="🎊")
+AttributeError: 'property' object has no attribute 'send_message'
+12:31:53,255 telegram.ext.dispatcher ERROR No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/llorenz/.local/lib/python3.10/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/llorenz/.local/lib/python3.10/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/home/llorenz/Dokumente/Software-Projekte/SturmBot/bot.py", line 72, in folge_id
+    process_folge(update, CallbackContext, folgennummer)
+  File "/home/llorenz/Dokumente/Software-Projekte/SturmBot/bot.py", line 112, in process_folge
+    test_for_match(update, context)
+  File "/home/llorenz/Dokumente/Software-Projekte/SturmBot/bot.py", line 94, in test_for_match
+    context.bot.send_message(chat_id=first_name_to_chat["Ludwig"].id, text="🎊")
+AttributeError: 'property' object has no attribute 'send_message'
